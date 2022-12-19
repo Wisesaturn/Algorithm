@@ -1,5 +1,9 @@
-## 💻 코딩테스트 문제풀이 모음집
-+ 풀이는 [이 곳](https://wisesaturn.github.io/TIL/docs/category/coding-test "코딩테스트 문제풀이 모음")에 저장해두었습니다. 
+## 💻 알고리즘 문제풀이
+
+- 정리해놓고 싶은 문제는 [이 곳](https://wisesaturn.github.io/TIL/docs/category/coding-test "알고리즘 문제풀이")에 저장해두었습니다.
+
 ### 📍 프로그래머스
 
-+ Level 1 진행 중
+### 📍백준
+
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=rfv1479)](https://solved.ac/rfv1479/)
