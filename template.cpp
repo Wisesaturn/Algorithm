@@ -7,7 +7,7 @@
 // 3. int보단 long long
 
 // ※ 배열 초기화 할 때
-// 3-1. (0 또는 -1) memset(&cout, 0, sizeof(cout));
+// 3-1. (0 또는 -1) memset(&cout, 0, sizeof(cout)); // include <cstring>
 // 3-2. (그 이외) fill(&arr[0][0], &arr[max -1][max], val);
 // ********************************
 
