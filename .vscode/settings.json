@@ -1,5 +1,8 @@
 {
     "files.associations": {
-        "vector": "cpp"
+        "*.frag": "frag",
+        "*.vert": "vert",
+        "vector": "cpp",
+        "ostream": "cpp"
     }
 }
