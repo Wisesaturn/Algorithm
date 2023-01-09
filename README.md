@@ -7,3 +7,6 @@
 ### 📍백준
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=rfv1479)](https://solved.ac/rfv1479/)
+
+- 기억해두고 싶은 문제
+  - 2630 (Divide and Conquer, 2차원 벡터 정사각형 분할)
