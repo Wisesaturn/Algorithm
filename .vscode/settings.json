@@ -3,6 +3,7 @@
         "*.frag": "frag",
         "*.vert": "vert",
         "vector": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "iostream": "cpp"
     }
 }
