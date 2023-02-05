@@ -10,3 +10,4 @@
 
 - 기억해두고 싶은 문제
   - 2630 (Divide and Conquer, 2차원 벡터 정사각형 분할)
+  - 13913 (BFS, 경로 저장 (vector보단 Linked-List))
