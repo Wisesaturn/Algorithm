@@ -22,7 +22,16 @@
                 "isDefault": true
             },
             "detail": "디버거에서 생성된 작업입니다."
-        }
+        },
+         {
+            "label": "execute",
+            "command": "cmd",
+            "group": "test",
+            "args": [
+                "/C",
+                "${fileDirname}\\${fileBasenameNoExtension}"
+            ]
+        },
     ],
     "version": "2.0.0"
 }
