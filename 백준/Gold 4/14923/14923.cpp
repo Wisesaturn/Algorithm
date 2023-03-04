@@ -46,20 +46,29 @@ int bfs()
 
       if (maps[nx][ny] == 0)
       {
-        if (visitedIsBroken[nx][ny])
-          continue;
+        if (cur.isBroken)
+        {
+          if (visitedIsBroken[nx][ny])
+            continue;
+
+          visitedIsBroken[nx][ny] = true;
+        }
+        else
+        {
+          if (visitedIsNotBroken[nx][ny])
+            continue;
+
+          visitedIsNotBroken[nx][ny] = true;
+        }
 
         paths[nx][ny] = paths[cur.x][cur.y] + 1;
-        visitedIsBroken[nx][ny] = true;
         q.push({cur.isBroken, nx, ny});
       }
-      else if (maps[nx][ny] == 1 && !cur.isBroken)
-      {
-        if (visitedIsNotBroken[nx][ny])
-          continue;
 
+      if (maps[nx][ny] == 1 && !cur.isBroken)
+      {
         paths[nx][ny] = paths[cur.x][cur.y] + 1;
-        visitedIsNotBroken[nx][ny] = true;
+        visitedIsBroken[nx][ny] = true;
         q.push({true, nx, ny});
       }
     }
