@@ -5,7 +5,7 @@
 // 1. endl보단 \n으로 개행 진행할 것
 // 2. ios_base::sync_with_stdio(false); cin.tie(NULL), cout.tie(NULL) 이용
 // 3. int보단 long long
-// 4. 2차원 벡터보단 vector<int> tmp[]으로, unordered_map보단 bool visited[]으로 시간단축이 가능
+// 4. 2차원 벡터보단 vector<int> tmp[] = {}으로, unordered_map보단 bool visited[]으로 시간단축이 가능
 
 // ※ 배열 초기화 할 때
 // 3-1. (0 또는 -1) memset(&cout, 0, sizeof(cout)); // include <cstring>
@@ -20,6 +20,23 @@
 //   2-2. iterator로 first, second 구문을 통해 key, value 확인 가능
 //   2-3. find 구문을 통해 key를 통한 value 여부 확인 가능
 // 3. unordered_map (key의 hash값에 따라 value를 저장)
+
+// ※ compare 비교 연산 함수 커스텀
+// priority_queue
+// struct compare
+// {
+//     bool operator()(const Node &a, const Node &b)
+//     {
+//         return a.cost < b.cost;
+//     }
+// };
+
+// sort
+// bool compare(Node a, Node b) {
+// if (a.second == b.second)
+//     return a.first < b.first;
+// return a.second < b.second;
+// }
 // ********************************
 
 #include <iostream>
