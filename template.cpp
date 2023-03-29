@@ -22,7 +22,7 @@
 // 3. unordered_map (key의 hash값에 따라 value를 저장)
 
 // ※ compare 비교 연산 함수 커스텀
-// priority_queue
+// [priority_queue]
 // struct compare
 // {
 //     bool operator()(const Node &a, const Node &b)
@@ -31,7 +31,7 @@
 //     }
 // };
 
-// sort
+// [sort]
 // bool compare(Node a, Node b) {
 // if (a.second == b.second)
 //     return a.first < b.first;
@@ -40,6 +40,7 @@
 // ********************************
 
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
