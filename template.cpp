@@ -12,6 +12,10 @@
 // 3-2. (그 이외) fill(&arr[0][0], &arr[max -1][max], val);
 // 3-3. vector라면 기본값을 주거나 resize로 초기화할 것
 
+// ※ 범위 내에서 index가 순차적으로 변화할 때
+// 1. 나머지로 표현하기 -> 4가지 방향을 정리할 때 index를 하나씩 +/-를 한다면?
+// (ex) (dir[j] + 1) % 4
+
 // ※ C++ STL 중요한 것 정리
 // 1. set (Node BST 구조, Red-Black Tree의 형태, 원소 자동 정렬)
 //   1-1. insert, erase를 통해 node를 추가, 삭제할 수 있음
