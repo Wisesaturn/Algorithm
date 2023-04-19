@@ -12,3 +12,4 @@
   - 2630 (Divide and Conquer, 2차원 벡터 정사각형 분할)
   - 13913 (BFS, 경로 저장 (vector보단 Linked-List))
   - 1197 (MST 구현 / Kruskal, Prim)
+  - 14501 (정말 간단한 DP인데 자꾸 생각이 안난다)
