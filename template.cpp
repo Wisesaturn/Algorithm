@@ -41,6 +41,24 @@
 //     return a.first < b.first;
 // return a.second < b.second;
 // }
+
+// ※ 문자열 다룰 때
+// string to int
+//   string test = "12345 test"
+//   int output;
+
+// 1. stringstream 이용
+//   stringstream ss
+//   ss >> output; (stringstream은 공백으로 구분, 뒤에는 다른 변수가 와도 무방)
+//   string이 공백으로 구분 될 때, split()할 수 있음
+
+// 2. stoi 이용
+//   output = stoi(test);
+
+// char to int
+//   문자열을 빼서 사용
+//   char num = '3';
+//   int output = num - '0';
 // ********************************
 
 #include <iostream>
