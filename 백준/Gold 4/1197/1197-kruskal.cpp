@@ -19,7 +19,7 @@ int find(int u)
   return parent[u] = find(parent[u]);
 }
 
-bool Union(int u, int v)
+bool isNotUnion(int u, int v)
 {
   u = find(u);
   v = find(v);
@@ -53,7 +53,7 @@ int kruskal()
     long long edge_start = edge.first;
     long long edge_end = edge.second;
 
-    if (Union(edge_end, edge_start))
+    if (isNotUnion(edge_end, edge_start))
     {
       sum += weight;
       cnt++;
