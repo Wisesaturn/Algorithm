@@ -59,6 +59,11 @@
 //   문자열을 빼서 사용
 //   char num = '3';
 //   int output = num - '0';
+
+// int to string
+//   to_string 사용 (#include <string> 필요)
+//   int wow = 1234;
+//   output = to_string(wow);
 // ********************************
 
 #include <iostream>
