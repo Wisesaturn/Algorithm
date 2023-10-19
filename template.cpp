@@ -19,11 +19,15 @@
 // ※ C++ STL 중요한 것 정리
 // 1. set (Node BST 구조, Red-Black Tree의 형태, 원소 자동 정렬)
 //   1-1. insert, erase를 통해 node를 추가, 삭제할 수 있음
+//   1-2. iterator로 값을 순회하면서 찾아야 함 (find를 통해 값 유무 알 수 있음)
 // 2. map (key,value BST 구조, Red-Black Tree의 형태, key 기준 자동 정렬)
 //   2-1. insert, erase를 통해 추가, 삭제가 가능함
 //   2-2. iterator로 first, second 구문을 통해 key, value 확인 가능
 //   2-3. find 구문을 통해 key를 통한 value 여부 확인 가능
 // 3. unordered_map (key의 hash값에 따라 value를 저장)
+// 4. erase + remove_if (C++ 20 이상엔 erase_if를 쓰는데 이건 코테에서 못 쓰므로 생략)
+//    - vector 내에서 특정 조건을 가진 원소를 삭제할 수 있다
+//    - ex) vector.erase(remove_if(vector.begin(), vector.end, [](int a){ return a == 2;}));
 
 // ※ compare 비교 연산 함수 커스텀
 // [priority_queue]
@@ -53,6 +57,7 @@
 //   string이 공백으로 구분 될 때, split()할 수 있음
 
 // 2. stoi 이용
+//   long long이면 stoll 사용
 //   output = stoi(test);
 
 // char to int
