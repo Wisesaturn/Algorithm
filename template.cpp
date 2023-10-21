@@ -69,6 +69,11 @@
 //   to_string 사용 (#include <string> 필요)
 //   int wow = 1234;
 //   output = to_string(wow);
+
+// 대소문자 구분할 때
+//  아스키코드 상으로 A가 a보다 먼저 앞에 있다는 점 주의
+// tolower(string), toupper(string)으로 쉽게 바꿀 수 있다.
+// 대소문자 찾을 때 if (string[i] >= 'a' && string[i] <= 'z')를 이용하면 소문자 구분이 가능!
 // ********************************
 
 #include <iostream>
