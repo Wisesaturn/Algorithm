@@ -52,7 +52,8 @@
 //   int output;
 
 // 1. stringstream 이용
-//   stringstream ss
+//   #include <sstream>
+//   stringstream ss(원하는 string 값) ex) stringstring ss(s), s = "test";
 //   ss >> output; (stringstream은 공백으로 구분, 뒤에는 다른 변수가 와도 무방)
 //   string이 공백으로 구분 될 때, split()할 수 있음
 
