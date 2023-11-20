@@ -51,6 +51,11 @@
 //   string test = "12345 test"
 //   int output;
 
+// 정규식을 활용하면 쉽게 문자열을 바꿀 수 있다.
+// #include <regex> 필요
+// regex_replace(string, 정규식, 바꿀 문자열);
+// ex) regex_replace(s, regex("three"), "3");
+
 // 1. stringstream 이용
 //   #include <sstream>
 //   stringstream ss(원하는 string 값) ex) stringstring ss(s), s = "test";
