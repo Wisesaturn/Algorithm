@@ -81,6 +81,16 @@
 // #include <cctype> 필요
 // tolower(string), toupper(string)으로 쉽게 바꿀 수 있다.
 // 대소문자 찾을 때 if (string[i] >= 'a' && string[i] <= 'z')를 이용하면 소문자 구분이 가능!
+
+// vector는 대부분 함수가 iterator인 점을 기억하자
+// 1. 지울 때
+// erase(remove_if(begin(), end(), 조건));
+// 2. 찾을 때
+// find(begin(), end(), 대상);
+// find_if(begin(), end(), 조건);
+// 3. 가장 큰 수/작은 수 찾을 때
+// max_elemenet(begin(), end(), 조건);
+// min_element(begin(), end(), 조건);
 // ********************************
 
 #include <iostream>
