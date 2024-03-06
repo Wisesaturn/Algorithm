@@ -62,6 +62,22 @@
 //   ss >> output; (stringstream은 공백으로 구분, 뒤에는 다른 변수가 와도 무방)
 //   string이 공백으로 구분 될 때, split()할 수 있음
 
+// (※Tip : 문자열 받아올 때)
+// cin으로 받아올 수 있지만, 특정 기호가 섞여 있다면 getline을 사용하자
+// getline({stream}, {string}, {limit});
+
+// ex1)
+// string input, token;
+// cin >> input;
+// stringstream ss(input);
+// while (getline(ss, token, ","))
+// ...
+
+// ex2)
+// string input, token;
+// while (getline(input, token, ","))
+// ...
+
 // 2. stoi 이용
 //   long long이면 stoll 사용
 //   output = stoi(test);
@@ -85,6 +101,7 @@
 // vector는 대부분 함수가 iterator인 점을 기억하자
 // 1. 지울 때
 // erase(remove_if(begin(), end(), 조건));
+// erase(remove(begin(), end(), 3), end()) -> 뒤에 중복 데이터 삭제 가능
 // 2. 찾을 때
 // find(begin(), end(), 대상);
 // find_if(begin(), end(), 조건);
