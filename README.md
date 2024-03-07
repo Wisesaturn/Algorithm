@@ -2,6 +2,10 @@
 
 - 정리해놓고 싶은 문제는 [이 곳](https://wisesaturn.github.io/TIL/docs/category/algorithm "알고리즘 문제풀이")에 저장해두었습니다.
 
+### Commit Convention
+- (사이트) 레벨 - 종류 : 문제 이름 (소요시간)
+   - ex) (백준) Lv.5 - DFS : 토마토 (30m)
+
 ## 📍 프로그래머스
 
 ## 📍 백준
