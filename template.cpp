@@ -100,11 +100,12 @@
 
 // vector는 대부분 함수가 iterator인 점을 기억하자
 // 1. 지울 때
-// erase(remove_if(begin(), end(), 조건));
-// erase(remove(begin(), end(), 3), end()) -> 뒤에 중복 데이터 삭제 가능
+// vec.erase(remove_if(begin(), end(), 조건));
+// vec.erase(remove(begin(), end(), 대상), end()) -> 모든 대상을 지우고, 뒤에 중복 데이터 삭제 가능
+// vec.erase(find(begin(), end(), 대상)); -> 특정 대상 하나만 지움
 // 2. 찾을 때
-// find(begin(), end(), 대상);
-// find_if(begin(), end(), 조건);
+// vec.find(begin(), end(), 대상);
+// vec.find_if(begin(), end(), 조건);
 // 3. 가장 큰 수/작은 수 찾을 때
 // max_elemenet(begin(), end(), 조건);
 // min_element(begin(), end(), 조건);
