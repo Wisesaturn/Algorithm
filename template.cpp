@@ -109,11 +109,14 @@
 // 3. 가장 큰 수/작은 수 찾을 때
 // max_elemenet(begin(), end(), 조건);
 // min_element(begin(), end(), 조건);
+// 
+// INT_MAX 2147483647
 // ********************************
 
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include <limits.h>
 
 using namespace std;
 
